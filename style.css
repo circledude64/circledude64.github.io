@@ -43,3 +43,9 @@ a{
 	opacity: 0.0;
 	user-select: none;
 }
+.secret{
+    text-align: center;
+	color: #00000066;
+    font-family: serif;
+    font-size: 0.51rem;
+}
