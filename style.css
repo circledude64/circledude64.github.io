@@ -39,7 +39,7 @@ a{
 	transform: translate(0,-5px);}
 
 .empty{
-	margin: 75px;
+	margin: 110px;
 	opacity: 0.0;
 	user-select: none;
 }
