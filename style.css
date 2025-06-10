@@ -4,7 +4,7 @@ body{
 a{
 	color: black; font-family: Georgia, serif;
 }h2{
-	font-family: Georgia, serif; text-align: center;
+	font-family: Georgia, serif; text-align: center; font-weight: normal;
 }
 
 .t{
