@@ -1,25 +1,26 @@
 body{
-	  font-family: Arial, sans-serif; margin: 20px;
-	}
-	.t{padding: 30px;
+	font-family: Arial, sans-serif; margin: 20px;
+}
+.t{
 	margin: 30px; 
 	background-color: #f08;
 	text-align: center;
-	font-size: 2.4rem;}
+	font-size: 2.4rem;
+}
 	
-	.fl{
+.fl{
 	display: flex;
 	justify-content: space-between;
-	background-color: #ddd
-	padding: 20px;
+	padding: 20px 0;
 	gap: 20px;
-	}
+}
 	
-	.box{
-	background-color: steelblue;
-	color: white;
+.box{
+	background-color: #cff;
+	color: black;
 	padding: 20px;
-	width: 50%;
 	text-align: center;
 	flex: 1;
-	}
+	border-radius: 15px;
+	box-shadow: 0 0 8px black;
+}
