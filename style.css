@@ -2,7 +2,9 @@ body{
 	font-family: Arial, sans-serif; margin: 20px; background-color: #a4a3cb;
 }
 a{
-	color: black; font-family: Georgia;
+	color: black; font-family: Georgia, serif;
+}h2{
+	font-family: Georgia, serif; text-align: center;
 }
 
 .t{
