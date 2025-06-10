@@ -36,4 +36,8 @@ a{
 	transition: box-shadow 0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95), transform 0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }.box:hover{
 	box-shadow: 0 5px 12px #000000bf;
-	transform: translate(0,-5px);
+	transform: translate(0,-5px);}
+
+.empty{
+	margin: 300px;
+}
