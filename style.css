@@ -1,6 +1,9 @@
 body{
 	font-family: Arial, sans-serif; margin: 20px; background-color: #a4a3cb;
 }
+a{
+	color: black; font-family: Georgia;
+}
 
 .t{
 	padding: 30px; 
@@ -9,6 +12,7 @@ body{
 	font-size: 2.4rem;
 	border-radius: 20px;
 	margin-bottom: 60px;
+	box-shadow: 0 0 8px #000000;
 }
 	
 .fl{
