@@ -11,7 +11,7 @@ body{
 .fl{
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 0;
+	padding: 60px 30px;
 	gap: 20px;
 }
 	
@@ -23,7 +23,7 @@ body{
 	flex: 1;
 	border-radius: 15px;
 	box-shadow: 0 0 8px #00000077;
-	transition: box-shadow width 2s;
+	transition: box-shadow 0.8s;
 }.box:hover{
 	box-shadow: 0 0 6px #000000aa;
 }
