@@ -1,5 +1,5 @@
 body {
-      background-color: #191919; color: white;
+      background-color: #191919; color: black;
       margin: 0;
       font-family: 'Bahnschrift Condensed', sans-serif;
     }
@@ -19,7 +19,7 @@ body {
     }
 
     .box {
-      background-color: red;
+      background-color: white;
       flex: 1;
       margin: 0 8px;
       text-align: center;
