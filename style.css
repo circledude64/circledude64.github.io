@@ -25,7 +25,12 @@ body {
       text-align: center;
       padding: 20px;
     }
-	a{color: black; font-family: Bahnschrift}
+.box:hover{
+        flex: 2;
+}
+a{
+	color: black; font-family: Bahnschrift
+}
 
     /* Optional: space between .box elements */
     .box:first-child { margin-left: 20px; border-radius: 13px 0 0 13px}
