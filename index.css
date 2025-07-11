@@ -1,21 +1,30 @@
 :root{
---link: hsl(80, 100%, 50%); --link-h: hsl(80, 100%, 70%);
---bg1: hsl(0, 0%, 5%); background-color: var(--bg1);
+--link: hsl(200, 100%, 50%); --linkh: hsl(200, 100%, 70%);
+--bg1: hsl(207, 100%, 50%); background-color: var(--bg1);
 --bg2: hsl(0, 0%, 15%);
 --bg3: hsl(0, 0%, 20%);
 --bg4: hsl(0, 0%, 30%);
+--blue1: hsl(215, 0%, 15%, 0.5);
 }
 
 a{
 color: var(--link); text-decoration: none; transition: color 0.5s ease;
 }a:hover{
-	color: var(--link-h);
+	color: var(--linkh);
 }
 
 .t{
-	background-color: var(--bg2);
-	margin: 30px; padding: 30px; text-align: center; font-size: 2.5em;
+	background-color: hsl(0, 0%, 15%, 0.88);
+	margin: 30px; padding: 40px 40px; text-align: center; font-size: 2.5em;
 	transition: all 0.5s ease;
+}
+.t:hover{
+ background-color: hsl(0, 0%, 15%, 0.6);
+ padding: 47px 40px;
+}
+
+.ut{
+
 }
 
 .t:hover{
@@ -29,11 +38,28 @@ body{
 }
 
 .b{
-	margin: 10px 20px 0 0; padding: 30px;background-color: var(--bg2);
+	margin: 0 20px 20px 0; padding: 30px 40px; text-align: center;
+	/* width: 250px; */
+	background-color: var(--blue1); font-size: 1.11em;
+	transition: all 0.5s ease; box-shadow: 0 0 0 0 white;
+	border-radius: 0px;
+}
+
+.b:hover{
+	padding: 30px 50px;
+	transform: perspective(360px) rotateX(10deg) translateY(-5px);
+	/*box-shadow: 0 0 10px 3px white;*/
 }
 
 .br{
 	display: flex;
 	align-content: flex-start;
+	flex-wrap: wrap;
 	margin: 30px;
 }
+.b:first-child{
+	border-top-left-radius: 25px
+}
+/*.b:last-child{
+	border-radius: 0 0 25px 0
+}*/
