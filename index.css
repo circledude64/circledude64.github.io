@@ -1,65 +1,78 @@
 :root{
---link: hsl(200, 100%, 50%); --linkh: hsl(200, 100%, 70%);
---bg1: hsl(207, 100%, 50%); background-color: var(--bg1);
---bg2: hsl(0, 0%, 15%);
---bg3: hsl(0, 0%, 20%);
---bg4: hsl(0, 0%, 30%);
---blue1: hsl(215, 0%, 15%, 0.5);
-}
-
-a{
-color: var(--link); text-decoration: none; transition: color 0.5s ease;
-}a:hover{
-	color: var(--linkh);
-}
-
-.t{
-	background-color: hsl(0, 0%, 15%, 0.88);
-	margin: 30px; padding: 40px 40px; text-align: center; font-size: 2.5em;
-	transition: all 0.5s ease;
-}
-.t:hover{
- background-color: hsl(0, 0%, 15%, 0.6);
- padding: 47px 40px;
-}
-
-.ut{
-
-}
-
-.t:hover{
-
+    --grey1: hsl(0, 0%, 15%, 0.5);
+	--bg: hsl(47 100% 49%);
+	--li: hsl(47 100% 63.5%);
 }
 
 body{
 	margin: 0px;
 	font-family: Bahnschrift, Arial, sans-serif;
 	color: white;
+	background-color: var(--bg);
+}
+/* links */
+a{
+color: var(--li); text-decoration: none; transition: all 0.5s ease;
+}
+a:hover{
+	color: white;
+	font-size: 20px;
 }
 
+.t{
+	background-color: hsl(0, 0%, 20%, 1); border-radius: 11px 11px 0 0;
+	margin: 30px; padding: 40px 40px; text-align: center; font-size: 2.5em;
+	transition: all 0.5s ease;
+}
+.t:hover{
+ background-color: hsl(0, 0%, 20%, 1);
+ padding: 47px 40px;
+}
+
+.ut{
+  margin: 0px 30px; padding: 20px; border-radius: 0px;
+  background: linear-gradient(90deg, hsl(0, 0%, 20%) 23%, #3330 54%, #3330);
+  transition: all 0.5s ease;
+}
+
+.ut:hover{
+
+ padding: 25px 20px;
+}
+
+
+
 .b{
-	margin: 0 20px 20px 0; padding: 30px 40px; text-align: center;
+	padding: 33px; text-align: center;
 	/* width: 250px; */
-	background-color: var(--blue1); font-size: 1.11em;
+	background-color: var(--grey1); font-size: 1.11em;
 	transition: all 0.5s ease; box-shadow: 0 0 0 0 white;
 	border-radius: 0px;
+	flex: 1;
 }
 
 .b:hover{
-	padding: 30px 50px;
+	/*padding: 30px 50px;
 	transform: perspective(360px) rotateX(10deg) translateY(-5px);
-	/*box-shadow: 0 0 10px 3px white;*/
+	box-shadow: 0 0 10px 3px white;*/
 }
 
 .br{
 	display: flex;
 	align-content: flex-start;
 	flex-wrap: wrap;
+	align-content: stretch;
 	margin: 30px;
+	gap: 15px;
 }
-.b:first-child{
-	border-top-left-radius: 25px
+/*.b:first-child{
+	border-top-left-radius: 15px;
 }
-/*.b:last-child{
+.b:last-child{
 	border-radius: 0 0 25px 0
 }*/
+
+.sp{
+	font-size: 50px; margin: 25px;
+	user-select: none; visibility: hidden;
+}
