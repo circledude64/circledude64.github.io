@@ -76,3 +76,6 @@ a:hover{
 	font-size: 50px; margin: 25px;
 	user-select: none; visibility: hidden;
 }
+img{
+        width: 130px;
+}
