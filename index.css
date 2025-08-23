@@ -53,8 +53,8 @@ a:hover{
 .b:hover{
 	/*padding: 30px 50px;
 	transform: perspective(360px) rotateX(10deg) translateY(-5px);
-	box-shadow: 0 0 10px 3px white;*/
-	box-shadow: 0 0 3px 4px #ffffff55
+	box-shadow: 0 0 10px 3px white;
+	box-shadow: 0 0 3px 4px #ffffff55*/
 }
 
 .br{
@@ -83,4 +83,5 @@ img{
 
 .smo{
 	font-size: 10px;
+
 }
