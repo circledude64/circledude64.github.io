@@ -1,7 +1,7 @@
 :root{
     --grey1: hsl(0, 0%, 15%, 0.5);
-	--bg: hsl(47 100% 49%);
-	--li: hsl(47 100% 63.5%);
+	--bg: #9850f8;
+	--li: hsl(266 92% 84% / 1);
 }
 
 body{
@@ -16,7 +16,6 @@ color: var(--li); text-decoration: none; transition: all 0.5s ease;
 }
 a:hover{
 	color: white;
-	font-size: 20px;
 }
 
 .t{
@@ -26,7 +25,7 @@ a:hover{
 }
 .t:hover{
  background-color: hsl(0, 0%, 20%, 1);
- padding: 47px 40px;
+ padding: 44px 30px;
 }
 
 .ut{
@@ -37,7 +36,7 @@ a:hover{
 
 .ut:hover{
 
- padding: 25px 20px;
+ padding: 24px 20px;
 }
 
 
@@ -55,6 +54,7 @@ a:hover{
 	/*padding: 30px 50px;
 	transform: perspective(360px) rotateX(10deg) translateY(-5px);
 	box-shadow: 0 0 10px 3px white;*/
+	box-shadow: 0 0 3px 4px #ffffff55
 }
 
 .br{
@@ -76,6 +76,11 @@ a:hover{
 	font-size: 50px; margin: 25px;
 	user-select: none; visibility: hidden;
 }
+
 img{
-        width: 130px;
+	width: 130px;
+}
+
+.smo{
+	font-size: 10px;
 }
