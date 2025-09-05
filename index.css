@@ -4,9 +4,14 @@
 	--li: hsl(266 92% 84% / 1);
 }
 
+@font-face {
+  font-family: Neusharp;
+  src: url(Neusharp-Bold.otf);
+}
+
 body{
 	margin: 0px;
-	font-family: Bahnschrift, Arial, sans-serif;
+	font-family: Neusharp, Bahnschrift, Arial, sans-serif;
 	color: white;
 	background-color: var(--bg);
 }
@@ -85,3 +90,4 @@ img{
 	font-size: 10px;
 
 }
+
