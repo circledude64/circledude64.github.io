@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Neusharp;
-  src: url(media/Gilbert Bold-Preview_1004.otf);
+  src: url(media/GilbertBold-Preview_1004.otf);
 }
 
 body{
@@ -92,6 +92,7 @@ img{
   function playSound() {
     document.getElementById("jev").play();
   }
+
 
 
 
