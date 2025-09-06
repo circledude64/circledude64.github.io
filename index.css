@@ -1,17 +1,21 @@
 :root{
     --grey1: hsl(0, 0%, 15%, 0.5);
-	--bg: #9850f8;
+	--bg: #9850f8 /*hsl(187.1, 83.78%, 78.24%)*/;
 	--li: hsl(266 92% 84% / 1);
 }
 
 @font-face {
-  font-family: Neusharp;
-  src: url(media/Gilbert%20Bold-Preview_1004.otf);
+  font-family: cap;
+  src: url(./media/RingLink-Medium.otf);
 }
+/*@font-face {
+  font-family: Neusharp;
+  src: url(C:/Users/User/Desktop/master/_html/media/RingLink-Medium.otf);
+}*/
 
 body{
 	margin: 0px;
-	font-family: Neusharp, Bahnschrift, Arial, sans-serif;
+	font-family: Bahnschrift, Arial, sans-serif;
 	color: white;
 	background-color: var(--bg);
 }
@@ -25,18 +29,19 @@ a:hover{
 
 .t{
 	background-color: hsl(0, 0%, 20%, 1); border-radius: 11px 11px 0 0;
-	margin: 30px; padding: 40px 40px; text-align: center; font-size: 2.5em;
+	margin: 30px; padding: 20px 40px; text-align: center; font-size: 4em;
 	transition: all 0.5s ease;
+	font-family: cap;
 }
 .t:hover{
  background-color: hsl(0, 0%, 20%, 1);
- padding: 44px 30px;
+ padding: 24px 30px;
 }
 
 .ut{
   margin: 0px 30px; padding: 20px; border-radius: 0px;
   background: linear-gradient(90deg, hsl(0, 0%, 20%) 23%, #3330 54%, #3330);
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; font-family: cap; font-weight: normal;
 }
 
 .ut:hover{
@@ -89,9 +94,6 @@ img{
 .smo{
 	font-size: 10px;
 }
-  function playSound() {
-    document.getElementById("jev").play();
-  }
 
 
 
